@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="app_lock_switch"
+        android:summary="@string/book_applock_summary"
+        android:title="@string/book_applock_title"
+        android:widgetLayout="@book:layout/preference_widget_switch_noclickable" />
+    <SwitchPreference
+        android:key="pattern_view_visible"
+        android:title="@string/book_pattern_visible_title"
+        android:summary="@string/book_pattern_visible_summary"
+        android:widgetLayout="@book:layout/preference_widget_switch_noclickable" />
+    <SwitchPreference
+        android:key="pattern_feed_back"
+        android:summary="@string/book_pattern_feedback_summary"
+        android:title="@string/book_pattern_feedback_title"
+        android:widgetLayout="@book:layout/preference_widget_switch_noclickable" />
+
+    <PreferenceScreen
+        android:key="app_lock_password"
+        android:persistent="false"
+        android:title="@string/applock_password_title" />
+
+</PreferenceScreen>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- 第一排 1-3数字布局 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- 1 -->
+
+        <TextView
+            android:id="@+id/btn_one"
+            style="@style/number_text_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/one" />
+        <!-- 2 -->
+
+        <TextView
+            android:id="@+id/btn_two"
+            style="@style/number_text_style"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/two" />
+        <!-- 3 -->
+
+        <TextView
+            android:id="@+id/btn_three"
+            style="@style/number_text_style"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/three" />
+    </RelativeLayout>
+    <!-- 第2排 4-6数字布局 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp" >
+
+        <!-- 4 -->
+
+        <TextView
+            android:id="@+id/btn_four"
+            style="@style/number_text_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/four" />
+        <!-- 5 -->
+
+        <TextView
+            android:id="@+id/btn_five"
+            style="@style/number_text_style"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/five" />
+        <!-- 6 -->
+
+        <TextView
+            android:id="@+id/btn_six"
+            style="@style/number_text_style"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/six" />
+    </RelativeLayout>
+    <!-- 第3排 7-9数字布局 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp" >
+
+        <!-- 7 -->
+
+        <TextView
+            android:id="@+id/btn_seven"
+            style="@style/number_text_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/seven" />
+        <!-- 8 -->
+
+        <TextView
+            android:id="@+id/btn_eight"
+            style="@style/number_text_style"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/eight" />
+        <!-- 9 -->
+
+        <TextView
+            android:id="@+id/btn_neigh"
+            style="@style/number_text_style"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/neigh" />
+    </RelativeLayout>
+    <!-- 第4排 0数字布局 -->
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp" >
+
+        <!-- 0 -->
+
+        <TextView
+            android:id="@+id/btn_zero"
+            style="@style/number_text_style"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/zero" />
+
+        <TextView
+            android:id="@+id/btn_delete"
+            style="@style/delete_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/user_delete_button"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</LinearLayout>

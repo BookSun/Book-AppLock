@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2012 Thunder Software Technology Co.,Ltd.
+     Copyright (c) 2010-2013, The Linux Foundation. All rights reserved.
+
+     Not a Contribution, Apache license notifications and license are retained
+     for attribution purposes only
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Image button description to switch input method -->
+    <string name="crypt_keeper_switch_input_method">Switch input method</string>
+
+    <!-- Unlock Picker Settings -->
+    <skip />
+
+    <!-- Security Picker -->
+    <skip />
+    <!-- Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
+    <string name="lock_settings_picker_title">Choose screen lock</string>
+
+    <!-- Title for security picker when choosing a facelock's backup unlock method: Pattern/PIN [CHAR LIMIT=22] -->
+    <string name="backup_lock_settings_picker_title">Choose backup lock</string>
+
+    <!-- Main Security lock settings -->
+    <skip />
+    <!-- Title for PreferenceScreen to launch picker for security method when there is none [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_launch_picker_title">Screen lock</string>
+
+    <!-- Title for PreferenceScreen to change security method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_launch_picker_change_title">Change lock screen</string>
+
+    <!-- Summary for PreferenceScreen to changeecurity method: None/Pattern/PIN/Password [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_launch_picker_change_summary">Change or disable pattern, PIN, or password security</string>
+
+    <!-- Summary for PreferenceScreen to changeecurity method: None/Pattern/PIN/Password [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_launch_picker_enable_summary">Choose a method to lock the screen</string>
+
+    <!-- Info explaining the backup lock which is used for facelock -->
+    <string name="unlock_backup_info_summary">When Face Unlock can\'t see you, how do you want to unlock?</string>
+
+    <!-- Title for preference that disables unlock security [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_off_title">None</string>
+    <!-- Summary for preference that disables unlock security [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_off_summary"></string>
+
+    <!-- Title for preference that disables unlock security [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_none_title">Slide</string>
+    <!-- Summary for preference that disables unlock security [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_none_summary">No security</string>
+
+    <!-- Title for preference that guides the user through a weak biometric lock [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_biometric_weak_title">Face Unlock</string>
+    <!-- Summary for preference that disables unlock security [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_biometric_weak_summary">Low security, experimental</string>
+
+    <!-- Title for preference that guides the user through creating an unlock pattern [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_pattern_title">Pattern</string>
+    <!-- Summary for preference that guides the user through creating an unlock pattern [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_pattern_summary">Medium security</string>
+
+    <!-- Title for preference that guides the user through creating an unlock PIN (Personal Identification Number) [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_pin_title">PIN</string>
+    <!-- Summary for preference that guides the user through creating an unlock PIN (Personal Identification Number) [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_pin_summary">Medium to high security</string>
+
+    <!-- Title for preference that guides the user through creating an unlock password [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_password_title">Password</string>
+    <!-- Title for preference that guides the user through creating an unlock password [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_password_summary">High security</string>
+
+    <!-- Summary for preference that has been disabled by because of the DevicePolicyAdmin, or because device encryption is enabled, or because there are credentials in the credential storage [CHAR LIMIT=50] -->
+    <string name="unlock_set_unlock_disabled_summary">Disabled by administrator, encryption policy, or credential storage</string>
+
+    <!-- Summary for "Configure lockscreen" when lock screen is off [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_off">None</string>
+    <!-- Summary for "Configure lockscreen" when security is disabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_none">Slide</string>
+    <!-- Summary for "Configure lockscreen" when security biometric weak is enabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_biometric_weak">Face Unlock</string>
+    <!-- Summary for "Configure lockscreen" when security pattern is enabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_pattern">Pattern</string>
+    <!-- Summary for "Configure lockscreen" when security PIN is enabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_pin">PIN</string>
+    <!-- Summary for "Configure lockscreen" when security password is enabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_password">Password</string>
+
+    <!-- Title for option to turn of password/pin/pattern unlock. [CHAR LIMIT=22] -->
+    <string name="unlock_disable_lock_title">Turn off screen lock</string>
+
+    <!-- Summary shown under unlock_disable_lock_title when pattern is in use and can be removed [CHAR LIMIT=45] -->
+    <string name="unlock_disable_lock_pattern_summary">Remove unlock pattern</string>
+    <!-- Summary shown under unlock_disable_lock_title when PIN is in use and can be removed [CHAR LIMIT=45] -->
+    <string name="unlock_disable_lock_pin_summary">Remove unlock PIN</string>
+    <!-- Summary shown under unlock_disable_lock_title when password is in use and can be removed [CHAR LIMIT=45] -->
+    <string name="unlock_disable_lock_password_summary">Remove unlock password</string>
+
+    <!-- Title shown on security settings to allow the user to change their lockscreen pattern [CHAR LIMIT=22] -->
+    <string name="unlock_change_lock_pattern_title">Change unlock pattern</string>
+    <!-- Title shown on security settings to allow the user to change their lockscreen PIN [CHAR LIMIT=22] -->
+    <string name="unlock_change_lock_pin_title">Change unlock PIN</string>
+    <!-- Title shown on security settings to allow the user to change their lockscreen password [CHAR LIMIT=22] -->
+    <string name="unlock_change_lock_password_title">Change unlock password</string>
+
+    <!-- Hint shown in dialog screen when password is too short -->
+    <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
+    <!-- Hint shown in dialog screen when PIN is too short -->
+    <string name="lockpassword_pin_too_short">PIN must be at least %d characters</string>
+
+    <!-- Hint shown after minimum password criteria is met -->
+    <string name="lockpassword_press_continue">Touch Continue when done</string>
+
+    <!-- Hint shown after minimum password criteria is met -->
+    <string name="lockpassword_continue_label">Continue</string>
+
+    <!-- Error shown in popup when password is too long -->
+    <string name="lockpassword_password_too_long">Password must be fewer than <xliff:g id="number" example="17">%d</xliff:g> characters.</string>
+    <!-- Error shown in popup when PIN is too long -->
+    <string name="lockpassword_pin_too_long">PIN must be fewer than <xliff:g id="number" example="17">%d</xliff:g> digits.</string>
+
+    <!-- Error shown when in PIN mode and user enters a non-digit -->
+    <string name="lockpassword_pin_contains_non_digits">PIN must contain only digits 0-9.</string>
+
+    <!-- Error shown when in PIN mode and PIN has been used recently. Please keep this string short! -->
+    <string name="lockpassword_pin_recently_used">Device administrator doesn\'t allow using a recent PIN.</string>
+
+    <!-- Error shown when in PASSWORD mode and user enters an invalid character -->
+    <string name="lockpassword_illegal_character">Password contains an illegal character.</string>
+
+    <!-- Error shown when in PASSWORD mode and password is all digits -->
+    <string name="lockpassword_password_requires_alpha">Password must contain at least one letter.</string>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain any digits -->
+    <string name="lockpassword_password_requires_digit">Password must contain at least one digit.</string>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain any symbols -->
+    <string name="lockpassword_password_requires_symbol">Password must contain at least one symbol.</string>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of letters -->
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="one">Password must contain at least 1 letter.</item>
+        <item quantity="other">Password must contain at least %d letters.</item>
+    </plurals>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of lowercase letters -->
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="one">Password must contain at least 1 lowercase letter.</item>
+        <item quantity="other">Password must contain at least %d lowercase letters.</item>
+    </plurals>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of uppercase letters -->
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="one">Password must contain at least 1 uppercase letter.</item>
+        <item quantity="other">Password must contain at least %d uppercase letters.</item>
+    </plurals>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of numerical digits -->
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="one">Password must contain at least 1 numerical digit.</item>
+        <item quantity="other">Password must contain at least %d numerical digits.</item>
+    </plurals>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of special symbols -->
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="one">Password must contain at least 1 special symbol.</item>
+        <item quantity="other">Password must contain at least %d special symbols.</item>
+    </plurals>
+
+    <!-- Error shown when in PASSWORD mode and password doesn't contain the required number of non-letter characters -->
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="one">Password must contain at least 1 non-letter character.</item>
+        <item quantity="other">Password must contain at least %d non-letter characters.</item>
+    </plurals>
+
+    <!-- Error shown when in PASSWORD mode and password has been used recently. Please keep this string short! -->
+    <string name="lockpassword_password_recently_used">Device administrator doesn\'t allow using a recent password.</string>
+
+    <!-- Label for ChoosePassword/PIN OK button -->
+    <string name="lockpassword_ok_label">OK</string>
+
+    <!-- Label for ChoosePassword/PIN OK button -->
+    <string name="lockpassword_cancel_label">Cancel</string>
+
+    <!-- Label for LockPatternTutorial Cancel button -->
+    <string name="lockpattern_tutorial_cancel_label">Cancel</string>
+
+    <!-- Label for LockPatternTutorial Continue button -->
+    <string name="lockpattern_tutorial_continue_label">Next</string>
+    <string name="lockpattern_change_lock_pattern_label">Change unlock pattern</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
+    <string name="lockpattern_change_lock_pin_label">Change unlock PIN</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction when the user chooses "Change unlock pattern".  We first ask the user toe nter the current pattern, and this is the message seen -->
+    <string name="lockpattern_need_to_unlock">Confirm saved pattern</string>
+    <!-- Do not translate. -->
+    <string name="lockpattern_need_to_unlock_footer" />
+    <!-- Security & location settings screen, change unlock pattern screen instruction if user draws incorrect pattern -->
+    <string name="lockpattern_need_to_unlock_wrong">Try again:</string>
+    <!-- Do not translate. -->
+    <string name="lockpattern_need_to_unlock_wrong_footer" />
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen.  This si when they are supposed to draw a new unlock pattern (for example, if they are changing their unlock patterns).. -->
+    <string name="lockpattern_recording_intro_header">Draw an unlock pattern:</string>
+    <!-- Security & location settings screen, change unlock pattern screen hint on bottom of screen.  We are telling them to press the menu button to see more options or help. -->
+    <string name="lockpattern_recording_intro_footer">Press Menu for help.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen while drawing pattern -->
+    <string name="lockpattern_recording_inprogress">Release finger when done.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen if user doesn't connect enough dots -->
+    <string name="lockpattern_recording_incorrect_too_short">Connect at least <xliff:g id="number">%d</xliff:g> dots. Try again:</string>
+    <!-- Security & location settings screen, change unlock pattern screen message on top of screen after drawing pattern -->
+    <string name="lockpattern_pattern_entered_header">Pattern recorded.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen to confirm pattern -->
+    <string name="lockpattern_need_to_confirm">Draw pattern again to confirm:</string>
+    <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern:</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  When they are ready to draw it once again to confirm it, they press this button. -->
+    <string name="lockpattern_confirm_button_text">Confirm</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen.  After they draw a pattern and release their finger, we display the pattern so they remember.  If they are nto satisfied with this pattern, they click this button to redraw the pattern. -->
+    <string name="lockpattern_restart_button_text">Redraw</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. If they are supposed to enter their current pattern before being able to draw another one, and they screw up, they hit this button to try again -->
+    <string name="lockpattern_retry_button_text">Retry</string>
+    <!-- Security & location settings screen, change unlock pattern screen button, on bottom of screen. Once they draw a new pattern and confirm it by drawing it again, they press this button to exit -->
+    <string name="lockpattern_continue_button_text">Continue</string>
+    <!-- Security & location settings screen, unlock screen activity title -->
+    <string name="lockpattern_settings_title">Unlock pattern</string>
+    <!-- Security & location settings screen, setting check box title if the unlock pattern MUST be drawn everytime they turn on the screen -->
+    <string name="lockpattern_settings_enable_title">Require pattern</string>
+    <!-- Security & location settings screen, setting summary for the checkbox "Require pattern" -->
+    <string name="lockpattern_settings_enable_summary">Must draw pattern to unlock screen</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether a visible green line is drawn as the user moves his finger around while drawing the unlock pattern.  If checked, this line is drawn.  If unchecked, there is nothing drawn so the user does not reveal his pattern while he unlocks the phone. -->
+    <string name="lockpattern_settings_enable_visible_pattern_title">Make pattern visible</string>
+    <!-- Security & location settings screen, setting check box title. This setting controls whether tactile feedback will be produced when the user draws the pattern. -->
+    <string name="lockpattern_settings_enable_tactile_feedback_title">Vibrate on touch</string>
+    <!-- Security & location settings screen, setting check box title. This controls whether the device locks immediately when the power button is pressed. [CHAR LIMIT=28] -->
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Power button instantly locks</string>
+    <!-- Security & location settings screen, setting option name when user has never set an unlock pattern -->
+    <string name="lockpattern_settings_choose_lock_pattern">Set unlock pattern</string>
+    <!-- Security & location settings screen, setting option name when user has previously set an unlock pattern and wants to change to a new pattern -->
+    <string name="lockpattern_settings_change_lock_pattern">Change unlock pattern</string>
+    <!-- Security & location settings screen, the help instructions (an animation) caption -->
+    <string name="lockpattern_settings_help_how_to_record">How to draw an unlock pattern</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction on top of screen after too many incorrect attempts -->
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many incorrect attempts!</string>
+    <!-- Security & location settings screen, change unlock pattern screen countdown hint on bottom of screen after too many incorrect attempts -->
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+    <!-- Toast shown when lock pattern or password successfully setup. [CHAR LIMIT=64] -->
+    <string name="lock_setup" msgid="5507462851158901718">Setup is complete.</string>
+    <string name="app_name">bookAppLock</string>
+    <string name="cancel">Retry</string>
+    <string name="unlock_set_unlock_screen_title">Use screen lock</string>
+    <string name="no_applications">No applications</string>
+    <string name="settings_safetylegal_activity_loading">loading...</string>
+    <string name="change_password_text">Modify</string>
+    <string name="forget_password_text">Forget</string>
+    <string name="manager_app_lock">App password</string>
+    <string name="cancel_password">Cancel success</string>
+    <string name="pattern_screen_password">Using screen lock</string>
+    <string name="password_screen_password">Using screen lock</string>
+    <string name="no_message">No Message</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="neigh">9</string>
+    <string name="please_input_pwd">Please input password</string>
+    <string name="input_again">forget</string>
+    <string name="user_delete_button">del</string>
+    <string name="app_lock_settings">Settings</string>
+    <string name="book_applock_summary">Open the locked app needs password and screen off lock again</string>
+    <string name="book_applock_title">App lock</string>
+    <string name="applock_password_title">Password Modify</string>
+    <string name="app_lock_header">  app locked</string>
+    <string name="book_app_locked">Locked</string>
+    <string name="book_app_unlocked">Unlocked</string>
+    <string name="icon_loading">Loading</string>
+    <string name="book_pim_name">PIM</string>
+    <string name="book_camera_name">Camera Gallery</string>
+    <string name="book_pattern_visible_title">Make pattern visible</string>
+    <string name="book_pattern_visible_summary">Make pattern visible when lock</string>
+    <string name="book_pattern_feedback_title">Vibrate on touch</string>
+    <string name="book_pattern_feedback_summary">Vibrates when lock</string>
+    <string name="applock_emergency_call">SOS</string>
+
+</resources>

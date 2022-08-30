@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+      Copyright (C) 2007 The Android Open Source Project
+      Copyright (C) 2012 Thunder Software Technology Co.,Ltd.
+      Copyright (c) 2011-2013, The Linux Foundation. All Rights Reserved.
+
+     Not a Contribution. Apache license notifications and license are retained
+     for attribution purposes only.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="lock_settings_picker_title" msgid="1095755849152582712">"选择屏幕锁定方式"</string>
+    <string name="backup_lock_settings_picker_title" msgid="8530380598637963916">"选择备份锁"</string>
+    <string name="unlock_set_unlock_launch_picker_title" msgid="2084576942666016993">"屏幕锁定"</string>
+    <string name="unlock_set_unlock_launch_picker_change_title" msgid="5045866882028324941">"更改锁定屏幕"</string>
+    <string name="unlock_set_unlock_launch_picker_change_summary" msgid="2790960639554590668">"更改或停用图案、PIN 或密码保护"</string>
+    <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="4791110798817242301">"选择锁定屏幕的方法"</string>
+    <string name="unlock_backup_info_summary" msgid="108524727803788172">"当人脸解锁识别不出您时，您希望如何解锁？"</string>
+    <string name="unlock_set_unlock_off_title" msgid="7117155352183088342">"无"</string>
+    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"></string>
+    <string name="unlock_set_unlock_none_title" msgid="2871898266296656162">"滑动"</string>
+    <string name="unlock_set_unlock_none_summary" msgid="8914673583104628191">"无安全措施"</string>
+    <string name="unlock_set_unlock_biometric_weak_title" msgid="2227215291604628670">"人脸解锁"</string>
+    <string name="unlock_set_unlock_biometric_weak_summary" msgid="180083326982058964">"安全性低、实验性"</string>
+    <string name="unlock_set_unlock_pattern_title" msgid="2912067603917311700">"图案密码"</string>
+    <string name="unlock_set_unlock_pattern_summary" msgid="7062696666227725593">"中等安全性"</string>
+    <string name="unlock_set_unlock_pin_title" msgid="5846029709462329515">"数字密码"</string>
+    <string name="unlock_set_unlock_pin_summary" msgid="907878650556383388">"中高等安全性"</string>
+    <string name="unlock_set_unlock_password_title" msgid="8775603825675090937">"数字密码"</string>
+    <string name="unlock_set_unlock_password_summary" msgid="8856220848940929546">"高安全性"</string>
+    <string name="unlock_set_unlock_disabled_summary" msgid="2120729867788851674">"已被管理员、加密策略或凭据存储停用"</string>
+    <string name="unlock_set_unlock_mode_off" msgid="5881952274566013651">"无"</string>
+    <string name="unlock_set_unlock_mode_none" msgid="5660014471997663139">"滑动"</string>
+    <string name="unlock_set_unlock_mode_biometric_weak" msgid="3008473624490350142">"人脸解锁"</string>
+    <string name="unlock_set_unlock_mode_pattern" msgid="7837270780919299289">"图案密码"</string>
+    <string name="unlock_set_unlock_mode_pin" msgid="3541326261341386690">"数字密码"</string>
+    <string name="unlock_set_unlock_mode_password" msgid="1203938057264146610">"密码"</string>
+    <string name="unlock_disable_lock_title" msgid="1427036227416979120">"关闭屏幕锁定"</string>
+    <string name="unlock_disable_lock_pattern_summary" msgid="6801602880568869201">"删除解锁图案"</string>
+    <string name="unlock_disable_lock_pin_summary" msgid="8856842745366993387">"删除解锁 PIN"</string>
+    <string name="unlock_disable_lock_password_summary" msgid="192161194564577025">"删除解锁密码"</string>
+    <string name="unlock_change_lock_pattern_title" msgid="2044092014872741130">"更改解锁图案"</string>
+    <string name="unlock_change_lock_pin_title" msgid="806629901095938484">"更改解锁 PIN"</string>
+    <string name="unlock_change_lock_password_title" msgid="5606298470358768865">"更改解锁密码"</string>
+    <string name="lockpassword_password_too_short" msgid="7328975683669256660">"密码必须至少包含 %d 个字符"</string>
+    <string name="lockpassword_pin_too_short" msgid="2252847623267704683">"PIN 必须至少包含 %d 个字符"</string>
+    <string name="lockpassword_press_continue" msgid="122706614386757182">"完成后触摸“继续”"</string>
+    <string name="lockpassword_continue_label" msgid="4602203784934526940">"继续"</string>
+    <string name="lockpassword_password_too_long" msgid="7016906583950201704">"密码必须少于 <xliff:g id="NUMBER">%d</xliff:g> 个字符。"</string>
+    <string name="lockpassword_pin_too_long" msgid="6419879099090294052">"PIN 必须少于 <xliff:g id="NUMBER">%d</xliff:g> 位数。"</string>
+    <string name="lockpassword_pin_contains_non_digits" msgid="1079053457942945709">"PIN 只能包含 0-9 的数字。"</string>
+    <string name="lockpassword_pin_recently_used" msgid="7909781183925861119">"设备管理员不允许使用最近用过的 PIN。"</string>
+    <string name="lockpassword_illegal_character" msgid="8742901630116866738">"密码包含非法字符。"</string>
+    <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"密码必须包含至少 1 个字母。"</string>
+    <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"密码必须包含至少 1 个数字。"</string>
+    <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"密码必须包含至少 1 个符号。"</string>
+
+    <plurals name="lockpassword_password_requires_letters">
+        <item msgid="3063853802158131458" quantity="one">"密码必须包含至少 1 个字母。"</item>
+        <item msgid="8186027808415585970" quantity="other">"密码必须包含至少 %d 个字母。"</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item msgid="5583986519662091001" quantity="one">"密码必须包含至少 1 个小写字母。"</item>
+        <item msgid="2693910942679679225" quantity="other">"密码必须包含至少 %d 个小写字母。"</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item msgid="2611909966725502768" quantity="one">"密码必须包含至少 1 个大写字母。"</item>
+        <item msgid="3030801209112209245" quantity="other">"密码必须包含至少 %d 个大写字母。"</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item msgid="3820355568839621231" quantity="one">"密码必须包含至少 1 个数字。"</item>
+        <item msgid="4703982391407595924" quantity="other">"密码必须包含至少 %d 个数字。"</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item msgid="8456579939292408631" quantity="one">"密码必须包含至少 1 个特殊符号。"</item>
+        <item msgid="1221290525051187757" quantity="other">"密码必须包含至少 %d 个特殊符号。"</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item msgid="4594051152085925921" quantity="one">"密码必须包含至少 1 个非字母字符。"</item>
+        <item msgid="3952508584649046404" quantity="other">"密码必须包含至少 %d 个非字母字符。"</item>
+    </plurals>
+
+    <string name="lockpassword_password_recently_used" msgid="6098087796784262081">"设备管理员不允许使用最近用过的密码。"</string>
+    <string name="lockpassword_ok_label" msgid="313822574062553672">"确定"</string>
+    <string name="lockpassword_cancel_label" msgid="8818529276331121899">"取消"</string>
+    <string name="lockpattern_tutorial_cancel_label" msgid="6431583477570493261">"取消"</string>
+    <string name="lockpattern_tutorial_continue_label" msgid="3559793618653400434">"下一步"</string>
+    <string name="lock_setup" msgid="3355847066343753943">"设置完毕"</string>
+    <string name="lockpassword_choose_your_password_header" msgid="8624900666929394990">"选择您的密码"</string>
+    <string name="lockpassword_choose_your_pattern_header" msgid="6949761069941694050">"选择您的图案"</string>
+    <string name="lockpassword_choose_your_pin_header" msgid="7598849519816138302">"选择您的密码"</string>
+    <string name="lockpassword_confirm_your_password_header" msgid="6308478184889846633">"确认您的密码"</string>
+    <string name="lockpassword_confirm_your_pattern_header" msgid="7543433733032330821">"确认您的图案"</string>
+    <string name="lockpassword_confirm_your_pin_header" msgid="49038294648213197">"确认您的密码"</string>
+    <string name="lockpassword_confirm_passwords_dont_match" msgid="6850677112663979120">"密码不匹配"</string>
+    <string name="lockpassword_confirm_pins_dont_match" msgid="4757532830594400147">"PIN 不匹配！"</string>
+    <string name="lockpassword_choose_lock_generic_header" msgid="3811438094903786145">"解锁方式选择"</string>
+    <string name="lockpassword_password_set_toast" msgid="4875050283108629383">"密码已设置"</string>
+    <string name="lockpassword_pin_set_toast" msgid="6011826444725291475">"PIN 已设置"</string>
+    <string name="lockpassword_pattern_set_toast" msgid="6867259621331406236">"图案已设置"</string>
+    <string name="lock_settings_title" msgid="335025124489630932">"屏幕安全保护"</string>
+    <string name="lockpattern_change_lock_pattern_label" msgid="5679630792003440352">"更改图案密码"</string>
+    <string name="lockpattern_change_lock_pin_label" msgid="266707138486731661">"更改解锁 PIN"</string>
+    <string name="lockpattern_need_to_unlock" msgid="757935356911054465">"请输入图案密码"</string>
+    <string name="lockpattern_need_to_unlock_wrong" msgid="4694973540770105678">"请重试"</string>
+    <string name="lockpattern_recording_intro_header" msgid="308287052221942814">"绘制图案密码"</string>
+    <string name="lockpattern_recording_intro_footer" msgid="1118579101409152113">"按 MENU 获得帮助。"</string>
+    <string name="lockpattern_recording_inprogress" msgid="4622772178078818425">"完成后松开手指"</string>
+    <string name="lockpattern_recording_incorrect_too_short" msgid="3103250430366718996">"至少连接 <xliff:g id="NUMBER">%d</xliff:g> 个点"</string>
+    <string name="lockpattern_pattern_entered_header" msgid="8378617839439987962">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm" msgid="5144676887162575050">"再次绘制图案进行确认："</string>
+    <string name="lockpattern_pattern_confirmed_header" msgid="2223856038485537716">"您的图案密码"</string>
+    <string name="lockpattern_confirm_button_text" msgid="1128204343957002841">"确认"</string>
+    <string name="lockpattern_restart_button_text" msgid="3337574403350953926">"重新绘制"</string>
+    <string name="lockpattern_retry_button_text" msgid="1949847413862309134">"重试"</string>
+    <string name="lockpattern_continue_button_text" msgid="4723771754714471410">"继续"</string>
+    <string name="lockpattern_settings_title" msgid="3207750489460466680">"解锁图案"</string>
+    <string name="lockpattern_settings_enable_title" msgid="6920616873671115281">"需要解锁图案"</string>
+    <string name="lockpattern_settings_enable_summary" msgid="1165707416664252167">"必须绘制图案才能解锁屏幕"</string>
+    <string name="lockpattern_settings_enable_visible_pattern_title" msgid="2615606088906120711">"使图案可见"</string>
+    <string name="lockpattern_settings_enable_tactile_feedback_title" msgid="8898518337442601027">"触摸时振动"</string>
+    <string name="lockpattern_settings_enable_power_button_instantly_locks" msgid="5735444062633666327">"电源按钮即时锁定"</string>
+    <string name="lockpattern_settings_choose_lock_pattern" msgid="1652352830005653447">"设置解锁图案"</string>
+    <string name="lockpattern_settings_change_lock_pattern" msgid="1123908306116495545">"更改解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record" msgid="2614673439060830433">"如何绘制解锁图案"</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_header" msgid="819903817323783498">"尝试次数过多"</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts_footer" msgid="6759029360597122873">"<xliff:g id="NUMBER">%d</xliff:g> 秒后重试"</string>
+    <string name="skip_button_label" msgid="8680422740354436943">"取消"</string>
+    <string name="next_button_label" msgid="8890792540116568321">"下一步"</string>
+    <string name="lock_title" msgid="2909697418179419990" product="tablet">"保护您的平板电脑"</string>
+    <string name="lock_title" msgid="4059246467204273930" product="default">"手机安全设置"</string>
+    <string name="lock_intro_message" msgid="8616353869251700776" product="tablet">"创建个人屏幕解锁图案可防止他人未经许可使用您的平板电脑。在下一屏幕上用手指以任意顺序连接至少四个点。"\n\n"准备好开始了吗？请触摸“下一步”。"</string>
+    <string name="lock_intro_message" msgid="8393155371327584659" product="default">"创建个人屏幕解锁图案可防止他人未经许可使用您的手机。在下一屏幕上滑动手指以任意顺序连接至少四个点。"\n\n"准备好开始了吗？请触摸“下一步”。"</string>
+    <string name="cancel">"重绘"</string>
+    <string name="unlock_set_unlock_screen_title">使用锁屏密码</string>
+    <string name="no_applications">没有加密应用</string>
+    <string name="settings_safetylegal_activity_loading">加载中...</string>
+    <string name="change_password_text">修改密码</string>
+    <string name="forget_password_text">取消密码</string>
+    <string name="manager_app_lock">设置密码的应用</string>
+    <string name="cancel_password">取消密码成功</string>
+    <string name="pattern_screen_password">你已使用锁屏图案密码</string>
+    <string name="password_screen_password">你已使用锁屏数字密码</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="neigh">9</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="sure_input_pwd">请确认密码</string>
+    <string name="input_again">忘记密码</string>
+    <string name="password_not_equals">密码不一致</string>
+    <string name="password_error">密码错误，请重新输入！</string>
+    <string name="no_screen_password">未设置锁屏密码</string>
+    <string name="user_delete_button">删除</string>
+    <string name="app_lock_settings">设置</string>
+    <string name="book_applock_summary">打开被加锁应用需要绘制密码，锁屏后应用将被重新加锁</string>
+    <string name="book_applock_title">应用锁</string>
+    <string name="applock_password_title">修改密码</string>
+    <string name="book_app_locked">已锁定</string>
+    <string name="book_app_unlocked">未锁定</string>
+    <string name="app_lock_header">个应用被锁定</string>
+    <string name="book_pim_name">拨号、联系人、信息</string>
+    <string name="book_camera_name">相机、图库</string>
+    <string name="book_pattern_visible_title">显示图案</string>
+    <string name="book_pattern_visible_summary">解锁时绘制图案显示</string>
+    <string name="book_pattern_feedback_title">触控震动</string>
+    <string name="book_pattern_feedback_summary">解锁时绘制图案震动</string>
+    <string name="applock_emergency_call">紧急呼救</string>
+</resources>

@@ -1,0 +1,134 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    coreApp="true"
+    package="com.book.app.lock"
+    android:sharedUserId="android.uid.system" >
+
+    <uses-permission android:name="android.permission.GET_TASKS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".application.bookAppLockApplication"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:taskAffinity="com.book.app.lock"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppLock" >
+
+        <!-- Lock screen settings -->
+        <activity
+            android:name="ConfirmLockPattern"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ConfirmLockPassword"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="ChooseLockGeneric"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:label="@string/lockpassword_choose_lock_generic_header"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.book.app.lock.ChooseLockPattern"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ChooseLockPassword"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ChooseLockPatternTutorial"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="ManagerAppLock"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppLock"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ChangePassWord"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="ConfirmLockActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bookAppLockGeneric"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bookChooseLockPattern"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="bookConfirmLockPattern"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bookAppLockConfirmControl"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:noHistory="true"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:name="bookAppLockActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="bookAppLockSettings"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"/>
+
+        <activity-alias
+            android:name="ShortcutConfirmAccessControl"
+            android:launchMode="singleInstance"
+            android:targetActivity="bookAppLockGeneric"
+            android:windowAnimationStyle="@null" >
+            <intent-filter>
+                <action android:name="android.app.action.CONFIRM_APPLOCK_CONTROL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <receiver
+            android:name=".service.bookScreenListenerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service 
+            android:name=".service.bookAppLockService"
+            android:persistent="true"
+            android:process="com.android.systemui">
+        </service>
+    </application>
+
+</manifest>

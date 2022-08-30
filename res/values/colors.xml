@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#33FF00</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#706e6e</color>
+    <color name="patternline">#088cff</color>
+    <color name="lock_pattern_background">#00000000</color>
+    <color name="lock_pattern_view_regular_color">#ff37474f</color>
+    <color name="lock_pattern_view_success_color">#ff009688</color>
+    <color name="lock_pattern_view_error_color">#fff4511e</color>
+
+</resources>
